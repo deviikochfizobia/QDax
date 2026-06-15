@@ -210,7 +210,7 @@ class AURORA:
             fitnesses=fitnesses,
             descriptors=descriptors,
             extra_scores=extra_scores,
-            keys_extra_scores=(self.observations_key,),
+            keys_extra_scores=(self.observations_key),
             l_value=l_value,
             max_size=max_size,
         )
